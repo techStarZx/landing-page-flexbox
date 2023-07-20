@@ -78,3 +78,47 @@ header .right {
     font-size: 22px;
 }
 
+
+
+
+
+
+.info {
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 110px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.info .box  .img{
+    width: 160px;
+    height: 170px;
+    border: 4px solid #3382f6;
+    border-radius: 18px;
+}
+
+.info .boxes {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.info .box p {
+    text-align: center;
+    width: 160px;
+    margin-top: 10px;
+
+}
+
+.info .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
