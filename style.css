@@ -75,17 +75,17 @@ header .right {
     border-radius: 5px;
     margin-top: 15px;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 28px;
+    cursor: pointer;
 }
 
 
 
 
 
-
 .info {
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     padding-bottom: 110px;
 }
 
@@ -131,8 +131,8 @@ header .right {
 .quote-sec {
     background-color: #e5e7eb;
     padding-top: 160px;
-    padding-left: 12vw;
-    padding-right: 12vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     padding-bottom: 110px;
 }
 
@@ -147,4 +147,51 @@ header .right {
     text-align: right;
     font-size: 26px;
     font-weight: 600;
+}
+
+
+
+
+
+.call-to-action {
+    padding-top: 110px;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    padding-bottom: 110px;
+}
+
+.call-to-action .block {
+    background-color: #3382f6;
+    height: 150px;
+    color: #e5e7eb;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.call-to-action h4 {
+    color: white;
+    font-size: 32px;
+}
+
+.call-to-action p {
+    font-size: 22px;
+}
+
+.call-to-action .left {
+    width:75%;
+}
+
+.call-to-action button {
+    background-color: #3382f6;
+    color: #f9faf8;
+    padding: 10px 45px;
+    border: 1px solid #f9faf8;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bolder;
+    font-size: 22px;
+    cursor: pointer;
 }
