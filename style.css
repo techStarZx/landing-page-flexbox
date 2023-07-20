@@ -36,13 +36,16 @@ nav ul {
 
 
 header .header-body {
-    padding-top: 100px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 100px;
 }
 
 header .left {
     width: 40%;
+    min-width: 360px;
+    flex-grow: 1;
 }
 
 header .right {
@@ -53,6 +56,9 @@ header .right {
     justify-content: center;
     align-items: center;
     background-color: gray;
+    min-width: 360px;
+    height: 242px;
+    flex-grow: 1;
 }
 
 .header-body h1 {
@@ -70,12 +76,12 @@ header .right {
 .header-body button {
     background-color: #3382f6;
     color: #f9faf8;
-    padding: 10px 45px;
+    padding: 8px 32px;
     border: 0;
     border-radius: 5px;
     margin-top: 15px;
-    font-weight: bolder;
-    font-size: 28px;
+    font-weight: bold;
+    font-size: 18px;
     cursor: pointer;
 }
 
@@ -107,7 +113,9 @@ header .right {
 .info .boxes {
     display: flex;
     margin-top: 60px;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .info .box p {
@@ -164,13 +172,14 @@ header .right {
 
 .call-to-action .block {
     background-color: #3382f6;
-    height: 150px;
     color: #e5e7eb;
     border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 80px;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .call-to-action h4 {
